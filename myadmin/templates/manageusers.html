@@ -1,0 +1,24 @@
+{% extends 'adminhome.html' %}
+
+
+{% block adminsection %}
+<center>
+  <h1> View and Manage users Details</h1>
+  <!--{{uDetails}}-->
+  <table class="table table-bordered">
+    <tr>
+      <th>RegID</th>
+      <th>Email</th>
+      <th>Info</th>
+    </tr>
+    {% for row in uDetails %}
+    <tr>
+      <td>{{row.regid}}</td>
+      <td>{{row.email}}</td>
+      <td>{{row.info}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</center>
+
+{% endblock %}

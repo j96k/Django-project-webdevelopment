@@ -1,0 +1,115 @@
+{% extends 'master_template.html' %}
+{% load static %}
+
+{% block slider %}
+{% endblock %}
+
+{% block Promosection %}
+{% endblock %}
+
+{% block Productsection %}
+{% endblock %}
+
+{% block Bannersection %}
+{% endblock %}
+
+{% block Popularsection %}
+{% endblock %}
+
+{% block Supportsection %}
+{% endblock %}
+
+<!-- here we Inherit the about section block for Contact details -->
+{% block Aboutsection %}
+
+  <!-- catg header banner section -->
+  <section id="aa-catg-head-banner">
+    <img src="{% static 'img/slider/display-img2.jpg'%}" style="max-height:350px;">
+    <div class="aa-catg-head-banner-area">
+      <div class="container">
+       <div class="aa-catg-head-banner-content">
+         <center>
+          <h2>Contact</h2>
+          <ol class="breadcrumb">
+           <li><a href="index.html">Home</a></li>         
+           <li class="active">Contact</li>
+         </center>
+         </ol>
+       </div>
+      </div>
+    </div>
+   </section>
+   <!-- / catg header banner section -->
+ <!-- start contact section -->
+  <section id="aa-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="aa-contact-area">
+            <div class="aa-contact-top">
+              <h2>We are wating to assist you..</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quos.</p>
+            </div>
+            <!-- contact map -->
+            <div class="aa-contact-map">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14630.482972478008!2d74.4349761!3d23.5461394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x58d1eb49393a06fe!2sRajgharana%20Emporium%20Banswara!5e0!3m2!1sen!2sin!4v1673888366915!5m2!1sen!2sin" 
+               width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0" allowfullscreen ></iframe>
+            </div>
+            <!-- Contact address -->
+            <div class="aa-contact-address">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="aa-contact-address-left">
+                    <form class="comments-form contact-form" action="">
+                     <div class="row">
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input type="text" placeholder="Your Name" class="form-control">
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input type="email" placeholder="Email" class="form-control">
+                         </div>
+                       </div>
+                     </div>
+                      <div class="row">
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input type="text" placeholder="Subject" class="form-control">
+                         </div>
+                       </div>
+                       <div class="col-md-6">
+                         <div class="form-group">                        
+                           <input type="text" placeholder="Company" class="form-control">
+                         </div>
+                       </div>
+                     </div>                  
+                      
+                     <div class="form-group">                        
+                       <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                     </div>
+                     <button class="aa-secondary-btn">Send</button>
+                   </form>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="aa-contact-address-right">
+                    <address>
+                      <h4>Rajgharana Emporium Banswara</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum modi dolor facilis! Nihil error, eius.</p>
+                      <p><span class="fa fa-home"></span>Rajgharana Emporium Banswara, Sadar bazar, Banswara, Rajasthan 327001 </p>
+                      <p><span class="fa fa-phone"></span><a href="tel:+919414688247">+919414688247 </a></p>
+                      <p><span class="fa fa-envelope"></span><a href="mailto:someone@example.com">dailyshop@gmail.com</a></p>
+                    </address>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
