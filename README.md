@@ -1,2 +1,6 @@
 # Django-project-WebDevlopment-Freelancing
-As a self-employed Web Developer and ChatBot Developer, I create websites for an online retailer employing databases and coding standards. current project
+
+Designed and developed custom websites for a range of small to medium-sized businesses using the Django web framework and XAMPP server, delivering solutions that met the unique needs of each client
+
+This is an Django based project that includes pertinent photos to aid with understanding.
+
